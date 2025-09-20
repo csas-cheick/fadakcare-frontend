@@ -24,7 +24,6 @@ function AddMedecinModal({
     specialite: "",
     numeroOrdre: "",
     service: "",
-    photoUrl: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
