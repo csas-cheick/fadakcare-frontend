@@ -349,7 +349,7 @@ export const useWebRTC = ({
 
   // Initialiser la connexion WebSocket
   const initializeSocket = useCallback(() => {
-    const wsUrl = `ws://localhost:8080?sessionId=${sessionId}&userId=${userId}&userName=${userName}`;
+    const wsUrl = `wss://signaling-server-s309.onrender.com?sessionId=${sessionId}&userId=${userId}&userName=${userName}`;
     socketRef.current = new WebSocket(wsUrl);
 
     socketRef.current.onopen = () => {
