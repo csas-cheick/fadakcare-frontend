@@ -27,7 +27,7 @@ class HttpError extends Error {
 }
 
 export class HttpService {
-  private static readonly DEFAULT_TIMEOUT = 10000;
+  private static readonly DEFAULT_TIMEOUT = 20000;
   private static readonly DEFAULT_HEADERS = {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
