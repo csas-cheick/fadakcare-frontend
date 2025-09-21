@@ -170,7 +170,7 @@ const profileItems: NavItem[] = [
   {
     icon: <LogoutIcon />,
     name: "Déconnexion",
-    path: "/login",
+    path: "/",
   },
 ];
 
