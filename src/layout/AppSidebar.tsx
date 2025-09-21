@@ -293,7 +293,7 @@ const AppSidebar: React.FC = () => {
                   onClick={() => {
                     localStorage.removeItem("userRole");
                     localStorage.removeItem("userId");
-                    window.location.href = "/login";
+                    window.location.href = "/";
                   }}
                   className={`menu-item group w-full text-left ${
                     isActive(nav.path) ? "menu-item-active" : "menu-item-inactive"
